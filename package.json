@@ -55,6 +55,7 @@
     "dotenv": "6.0.0",
     "uuid-random": "1.0.6",
     "winston": "2.4.4",
-    "winston-papertrail": "1.0.5"
+    "winston-papertrail": "1.0.5",
+    "xlsx-writestream": "0.5.1"
   }
 }
