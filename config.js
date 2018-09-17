@@ -8,5 +8,16 @@ module.exports = {
   QUEUE_DIRECTORY_PATH: process.env.QUEUE_DIRECTORY_PATH || 'test/directories/queue',
   PAPERTRAIL_HOSTNAME: process.env.PAPERTRAIL_HOSTNAME || 'avtale-generator',
   PAPERTRAIL_HOST: process.env.PAPERTRAIL_HOST || 'logs.papertrailapp.com',
-  PAPERTRAIL_PORT: process.env.PAPERTRAIL_PORT || 12345
+  PAPERTRAIL_PORT: process.env.PAPERTRAIL_PORT || 12345,
+  fakturaLinjer: {
+    PC17: {
+      amount: 1304
+    },
+    PC17x: {
+      amount: 1809
+    },
+    PC18: {
+      amount: 1406
+    }
+  }
 }
