@@ -25,15 +25,15 @@ module.exports = {
   fakturaLinjer: {
     PC17: {
       amount: 1032,
-      note: 'Leie av elev-PC skoleåret 2018-2019'
+      note: 'Leasing elev-PC skoleåret 2018-2019'
     },
     PC17x: {
       amount: 2046,
-      note: 'Leie av elev-PC skoleåret 2017-2018\nLeie av elev-PC skoleåret 2018-2019'
+      note: 'Leie av elev-PC skoleåret 2017-2018\nLeasing elev-PC skoleåret 2018-2019'
     },
     PC18: {
       amount: 1032,
-      note: 'Leie av elev-PC skoleåret 2018-2019'
+      note: 'Leasing elev-PC skoleåret 2018-2019'
     }
   }
 }
