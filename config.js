@@ -15,13 +15,16 @@ module.exports = {
   PAPERTRAIL_PORT: process.env.PAPERTRAIL_PORT || 12345,
   fakturaLinjer: {
     PC17: {
-      amount: 1304
+      amount: 1332,
+      note: 'Leie av elev-PC skoleåret 2018-2019'
     },
     PC17x: {
-      amount: 1809
+      amount: 2036,
+      note: 'Leie av elev-PC skoleåret 2017-2018\nLeie av elev-PC skoleåret 2018-2019'
     },
     PC18: {
-      amount: 1406
+      amount: 1332,
+      note: 'Leie av elev-PC skoleåret 2018-2019'
     }
   }
 }
