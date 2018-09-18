@@ -7,6 +7,7 @@ En oversikt over flyten i generatoren
 - Inndata er en liste med fødselsnummer og PC-kode
 - PC-koder som skal ende med faktura er PC17, PC17x og PC18
 - Dersom eleven er under 18 skal faktura sendes til en av de foresatte
+- Lister tas ut pr varenummer så PC17x kommer på egen liste
 
 ## Saksgang
 

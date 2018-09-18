@@ -2,6 +2,14 @@ if (process.env.NODE_ENV !== 'production') {
   require('dotenv').config()
 }
 
+function getValidLines () {
+  let lines = ['PC17', 'PC17x', 'PC18']
+  if (process.env.VALID_LINES) {
+    lines = process.env.VALID_LINES.split(',')
+  }
+  return lines
+}
+
 module.exports = {
   DONE_DIRECTORY_PATH: process.env.DONE_DIRECTORY_PATH || 'test/directories/done',
   JOBS_DIRECTORY_PATH: process.env.JOBS_DIRECTORY_PATH || 'test/directories/jobs',
@@ -13,6 +21,7 @@ module.exports = {
   PAPERTRAIL_HOSTNAME: process.env.PAPERTRAIL_HOSTNAME || 'avtale-generator',
   PAPERTRAIL_HOST: process.env.PAPERTRAIL_HOST || 'logs.papertrailapp.com',
   PAPERTRAIL_PORT: process.env.PAPERTRAIL_PORT || 12345,
+  VALID_LINES: getValidLines(),
   fakturaLinjer: {
     PC17: {
       amount: 1032,
