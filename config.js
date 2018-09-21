@@ -27,6 +27,10 @@ module.exports = {
       amount: 1032,
       note: 'Leasing elev-PC skoleåret 2018-2019'
     },
+    'PC17-KJØPx2': {
+      amount: 2064,
+      note: 'Leasing elev-PC skoleåret 2018-2019\nUtkjøp elev-PC'
+    },
     PC17x: {
       amount: 2046,
       note: 'Leie av elev-PC skoleåret 2017-2018\nLeasing elev-PC skoleåret 2018-2019'
