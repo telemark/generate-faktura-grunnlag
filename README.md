@@ -6,7 +6,25 @@ Forutsetter at data er i en .csv-fil og at den har `.job.` som en del av filnavn
 
 Det må også være "ekte" .csv mao kommaseparert
 
-## Format
+Feltene som kan importeres til Visma er
+
+```
+kundenr (personnr)
+Navn
+Adresse1
+Adresse2
+Postnr
+Poststed
+Mobil
+Epost
+Varenr
+Pris
+Antall
+Merknad1
+Merknad2
+```
+
+## Format på grunnlagsfil
 ```
 Enhet,Personnr,Klasse,PC-kode,Født
 BAMVS,01020304050,BV2UA,PC17,11/2/2001
@@ -15,7 +33,7 @@ BAMVS,098265353100,BV1AI,PC18,4/4/2000
 BAMVS,098265353100,BV1AI,PC-UTLÅN,2/12/2000
 ```
 
-# Oppsett
+# Oppsett for produksjon
 
 - opprett en .env-fil med aktuell konfigurasjon
 
@@ -24,9 +42,13 @@ DSF_SERVICE_URL=https://dsf.service.io
 DSF_SERVICE_JWT=Louie Louie oh no I got to go Louie Louie oh no I got to go
 KOR_SERVICE_URL=https://kor.service.io
 KOR_SERVICE_JWT=Louie Louie oh no I got to go Louie Louie oh no I got to go
+VALID_LINES=PC17,PC18 #Frivillig, brukes kun om du vil filtrere på enkelte PC-koder
 ```
 
 - sett opp rette fakturalinjer i [config.js](config.js)
+  - partNumber - varelinje
+  - amount - pris
+  - note - sendes til merknad1
 
 # Bruk
 
