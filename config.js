@@ -24,18 +24,22 @@ module.exports = {
   VALID_LINES: getValidLines(),
   fakturaLinjer: {
     PC17: {
+      partNumber: '',
       amount: 1032,
       note: 'Leasing elev-PC skoleåret 2018-2019'
     },
     'PC17-KJØPx2': {
+      partNumber: '',
       amount: 2064,
       note: 'Kjøp av elev-PC'
     },
     PC17x: {
+      partNumber: '',
       amount: 2046,
       note: 'Leie av elev-PC skoleåret 2017-2018\nLeasing elev-PC skoleåret 2018-2019'
     },
     PC18: {
+      partNumber: '',
       amount: 1032,
       note: 'Leasing elev-PC skoleåret 2018-2019'
     }
