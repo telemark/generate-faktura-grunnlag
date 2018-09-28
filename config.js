@@ -38,7 +38,7 @@ module.exports = {
     PC17x: {
       partNumber: 104,
       amount: 2046,
-      note: 'Leie av elev-PC skoleåret 2017-2018\nLeasing elev-PC skoleåret 2018-2019'
+      note: 'Leie av elev-PC skoleåret 2017-2019'
     },
     PC18: {
       partNumber: 103,
