@@ -3,7 +3,7 @@ if (process.env.NODE_ENV !== 'production') {
 }
 
 function getValidLines () {
-  let lines = ['PC17', 'PC17x', 'PC18']
+  let lines = ['PC17', 'PC17x', 'PC17-KJØPx2', 'PC18']
   if (process.env.VALID_LINES) {
     lines = process.env.VALID_LINES.split(',')
   }
