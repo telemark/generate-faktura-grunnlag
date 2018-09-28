@@ -22,6 +22,7 @@ module.exports = {
   PAPERTRAIL_HOST: process.env.PAPERTRAIL_HOST || 'logs.papertrailapp.com',
   PAPERTRAIL_PORT: process.env.PAPERTRAIL_PORT || 12345,
   VALID_LINES: getValidLines(),
+  FILE_ENCODING: process.env.FILE_ENCODING || 'utf8',
   fakturaLinjer: {
     PC17: {
       amount: 1032,
