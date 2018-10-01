@@ -24,6 +24,9 @@ Merknad1
 Merknad2
 ```
 
+Visma Enterprise har en begrensning på hvor mange tegn som kan være i Navn, Adresse1 og Adresse2.
+Dersom disse inneholder mer enn 40 tegn vil de kortes ned.
+
 ## Format på grunnlagsfil
 ```
 Enhet,Personnr,Klasse,PC-kode,Født
