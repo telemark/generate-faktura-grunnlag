@@ -12,6 +12,12 @@ test('It changes Foresatte til to Foresatte', t => {
   t.deepEqual(shortenName(name), expectedName, 'Changes Foresatte ok')
 })
 
+test('It changes Foresatte til to Foresatte and shortens name', t => {
+  const name = 'Foresatte til Bobsson Bob Bob Bobsson Bobsson Bob'
+  const expectedName = 'Foresatte B Bob Bob Bobsson Bobsson Bob'
+  t.deepEqual(shortenName(name), expectedName, 'Changes Foresatte and name ok')
+})
+
 test('It shortens name', t => {
   const name = 'Bobsson Bob Bob Bobsson Bobsson Bob Bobsson'
   const expectedName = 'B Bob Bob Bobsson Bobsson Bob Bobsson'
