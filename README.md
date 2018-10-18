@@ -46,6 +46,7 @@ DSF_SERVICE_JWT=Louie Louie oh no I got to go Louie Louie oh no I got to go
 KOR_SERVICE_URL=https://kor.service.io
 KOR_SERVICE_JWT=Louie Louie oh no I got to go Louie Louie oh no I got to go
 VALID_LINES=PC17,PC18 #Frivillig, brukes kun om du vil filtrere på enkelte PC-koder
+FILE_ENCODING=latin1 #Frivillig, brukes om mottakersystem ikke støtter utf-8
 ```
 
 - sett opp rette fakturalinjer i [config.js](config.js)
