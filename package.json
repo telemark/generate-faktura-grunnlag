@@ -58,7 +58,7 @@
     "get-age": "1.0.1",
     "json2csv": "4.3.4",
     "jsonwebtoken": "8.4.0",
-    "tfk-dsf-normalize-contact": "2.3.0",
+    "tfk-dsf-normalize-contact": "3.0.0",
     "then-sleep": "1.0.1",
     "uuid-random": "1.0.6",
     "winston": "2.4.4",
