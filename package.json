@@ -57,7 +57,7 @@
     "dotenv": "7.0.0",
     "get-age": "1.0.1",
     "json2csv": "4.3.5",
-    "jsonwebtoken": "8.5.0",
+    "jsonwebtoken": "8.5.1",
     "tfk-dsf-normalize-contact": "3.0.0",
     "then-sleep": "1.0.1",
     "uuid-random": "1.0.7",
