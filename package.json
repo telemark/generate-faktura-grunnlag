@@ -62,7 +62,7 @@
     "tfk-schools-info": "2.2.0",
     "then-sleep": "1.0.1",
     "uuid-random": "1.3.0",
-    "winston": "2.4.4",
+    "winston": "2.4.5",
     "winston-papertrail": "1.0.5"
   }
 }
